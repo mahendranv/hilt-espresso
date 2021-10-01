@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.ex2.hiltespresso.data.DataRepoImpl
+import com.ex2.hiltespresso.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ProfileFragment : Fragment() {
 
-    val viewModel by viewModels<ProfileViewModel> {
-        ProfileViewModel.Factory(repo = DataRepoImpl())
-    }
+    private val viewModel by viewModels<ProfileViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
