@@ -25,7 +25,6 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         view.findViewById<TextView>(R.id.name_label)
             .text = viewModel.getProfile().name
     }
