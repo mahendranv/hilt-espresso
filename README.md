@@ -5,6 +5,7 @@ Sample app demonstrates usage of hilt with espresso
 ## Related posts:
 
 - [Part1 - Basic setup viewmodel + fragment + hilt](https://dev.to/mahendranv/android-basic-hilt-setup-with-viewmodel-fragment-32fd)
+- [Part2 - How HiltViewModel is generated without a factory?](https://dev.to/mahendranv/smoke-mirrors-hiltviewmodel-5a7f)
 
 
 
